@@ -1,0 +1,14 @@
+Request failed with status code 404
+- node_modules/axios/lib/core/createError.js:15:17 in createError
+- node_modules/axios/lib/core/settle.js:16:9 in settle
+- node_modules/axios/lib/adapters/xhr.js:53:6 in handleLoad
+- node_modules/event-target-shim/dist/event-target-shim.js:818:20 in EventTarget.prototype.dispatchEvent
+- node_modules/react-native/Libraries/Network/XMLHttpRequest.js:592:4 in setReadyState
+- node_modules/react-native/Libraries/Network/XMLHttpRequest.js:395:6 in __didCompleteResponse
+- node_modules/react-native/Libraries/vendor/emitter/EventEmitter.js:189:10 in emit
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:416:4 in __callFunction
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:109:6 in __guard$argument_0
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:364:10 in __guard
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js:108:4 in callFunctionReturnFlushedQueue
+* [native code]:null in callFunctionReturnFlushedQueue
+
